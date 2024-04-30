@@ -1,3 +1,11 @@
+/*
+time complexity:
+getMin(): O(1)
+extractMin(): O(log(n)) to heapify where n is the number of elements
+insert()L O(log(n)) to heapify where n is the number of elements
+space complexity: O(n) 
+did this run on leetcode? N/A
+ */
 import java.util.ArrayList;
 import java.util.List;
 
