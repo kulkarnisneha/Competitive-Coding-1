@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class DesignMinHeap {
+public class Problem2 {
     private int maxHeapSize;
     private List<Integer> heap;
 
-    public DesignMinHeap(int heapSize) {
+    public Problem2(int heapSize) {
         this.maxHeapSize = heapSize;
         this.heap = new ArrayList<>();
     }
@@ -114,7 +114,7 @@ public class DesignMinHeap {
         System.out.println("The Min Heap is ");
 
         // Creating object of class in main() method
-        DesignMinHeap minHeap = new DesignMinHeap(15);
+        Problem2 minHeap = new Problem2(15);
 
         // Inserting element to minHeap
         // using insert() method
